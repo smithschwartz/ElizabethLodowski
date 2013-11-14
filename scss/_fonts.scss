@@ -1,0 +1,50 @@
+body {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  font-weight: 100;
+  font-size: 2.5em;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+}
+
+h5 {
+  font-size: 1.7em;
+  font-weight: 300;
+}
+.sidebar-nav {
+  font-weight: 300;
+  h3 {
+    font-size: 1.25em;
+    font-weight: 700;
+  }
+  li {
+    font-size: 1em;
+    line-height: 2em;
+    font-style: italic;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
+.texas {
+  background: url(../images/texas.png) 0 0 no-repeat;
+  font: 0/0 a;
+  height: 40px;
+  text-align: left;
+}
+
+a:hover {
+  color: #D4B8BA;
+}
